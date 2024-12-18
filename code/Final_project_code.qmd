@@ -12,7 +12,7 @@ library(dplyr)
 library(tidyr)
 library(tidyverse)
 
-file_path = "NST-EST2023-POP.xlsx"
+file_path = "/Users/liubowen/Desktop/BST260/Final_Project/data/raw-data/NST-EST2023-POP.xlsx"
 
 data = read_excel(file_path, sheet = "NST-EST2023-POP", skip = 8)
 
